@@ -1,4 +1,12 @@
 import { Component } from '@angular/core';
+import data from '../assets/data/data.json';
+
+interface Customer{
+  id: Number;
+  Name: String;
+  Gender: String;
+  Balance: Number;
+}
 
 @Component({
   selector: 'app-root',
@@ -7,4 +15,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'customers';
+
+  customers : Customer[] = data; 
 }

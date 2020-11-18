@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "Name": "Alex",
+        "Gender": "Male",
+        "Balance": 1568.50
+    },
+
+    {
+        "id":2,
+        "Name": "Blair",
+        "Gender": "Female",
+        "Balance": 9574.98
+    },
+
+    {
+        "id":3,
+        "Name": "Charles",
+        "Gender": "Male",
+        "Balance": 8186.557
+    },
+
+    {
+        "id":4,
+        "Name": "Dan",
+        "Gender": "Male",
+        "Balance": 4128.00
+    },
+
+    {
+        "id":5,
+        "Name": "Lilly",
+        "Gender": "Female",
+        "Balance": 7568.00
+    }
+
+
+
+
+]
