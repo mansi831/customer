@@ -1,40 +1,80 @@
-[
-    {
-        "id":1,
-        "Name": "Alex",
-        "Gender": "Male",
-        "Balance": 1568.50
-    },
 
-    {
-        "id":2,
-        "Name": "Blair",
-        "Gender": "Female",
-        "Balance": 9574.98
-    },
-
-    {
-        "id":3,
-        "Name": "Charles",
-        "Gender": "Male",
-        "Balance": 8186.557
-    },
-
-    {
-        "id":4,
-        "Name": "Dan",
-        "Gender": "Male",
-        "Balance": 4128.00
-    },
-
-    {
-        "id":5,
-        "Name": "Lilly",
-        "Gender": "Female",
-        "Balance": 7568.00
-    }
-
-
-
-
-]
+   [   {
+        "userId": "krish",
+        "jobTitle": "Developer",
+        "firstName": "Krish",
+        "lastName": "Lee",
+        "employeeCode": 1,
+        "region": "CAN",
+        "phoneNumber": 123456,
+        "emailAddress": "krish.lee@learningcontainer.com",
+        "balance" : 1154.255
+      },
+      {
+        "userId": "devid",
+        "jobTitle": "Developer",
+        "firstName": "Devid",
+        "lastName": "Rome",
+        "employeeCode": 2,
+        "region": "MEX",
+        "phoneNumber": 1111111,
+        "emailAddress": "devid.rome@learningcontainer.com",
+        "balance" : 3654.45
+      },
+      {
+        "userId": "tin",
+        "jobTitle": "Program Directory",
+        "firstName": "Tin",
+        "lastName": "jonson",
+        "employeeCode": 3,
+        "region": "CA",
+        "phoneNumber": 2222222,
+        "emailAddress": "tin.jonson@learningcontainer.com",
+        "balance" : 8854.255
+      },
+      {
+        "userId": "mark",
+        "jobTitle": "Program Directory",
+        "firstName": "Mark",
+        "lastName": "jonson",
+        "employeeCode": 4,
+        "region": "AUS",
+        "phoneNumber": 2546987,
+        "emailAddress": "mark34@learningcontainer.com",
+        "balance" : 85564.255
+      },
+      {
+        "userId": "loius",
+        "jobTitle": "Program Directory",
+        "firstName": "Louis",
+        "lastName": "Dan",
+        "employeeCode": 5,
+        "region": "USA",
+        "phoneNumber": 9742322,
+        "emailAddress": "Dan@learningcontainer.com",
+        "balance" : 13484.445
+      },
+      {
+        "userId": "David",
+        "jobTitle": "Scrum Master",
+        "firstName": "David",
+        "lastName": "jannie",
+        "employeeCode": 6,
+        "region": "IND",
+        "phoneNumber": 9154422,
+        "emailAddress": "johndavid@learningcontainer.com",
+        "balance" : 51584.255
+      },
+      {
+        "userId": "Alen",
+        "jobTitle": "Lead",
+        "firstName": "Alex",
+        "lastName": "Davidson",
+        "employeeCode": 7,
+        "region": "CA",
+        "phoneNumber": 669222,
+        "emailAddress": "davidson@learningcontainer.com",
+        "balance" : 56244.255
+      }
+   ]
+    

@@ -5,6 +5,7 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 
 const routes: Routes = [
   { path:'customer', component: CustomerListComponent },
+  { path:'', redirectTo:'/customer', pathMatch:'full' },
   { path:'**', component: ErrorPageComponent }
 ];
 

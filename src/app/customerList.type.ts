@@ -1,6 +1,11 @@
 export interface Customer{
-    id: Number;
-    Name: String;
-    Gender: String;
-    Balance: Number;
+    userId: String;
+    jobTitle: String;
+    firstName: String;
+    lastName: String;
+    employeeCode: Number;
+    region: String;
+    phoneNumber: Number;
+    emailAddress: String;
+    balance: Number;
   }
