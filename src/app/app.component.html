@@ -1,23 +1,2 @@
-<div class="container">
-    <h1 class="text-center">Showing Customer details</h1>
-    <table class="table table-hover">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">Id</th>
-          <th scope="col">Name</th>
-          <th scope="col">Gender</th>
-          <th scope="col">Balance</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let data of customers">
-          <td>{{ data.id }}</td>
-          <td>{{ data.Name }}</td>          
-          <td>{{ data.Gender }}</td>
-          <td>{{ data.Balance | currency :"INR": "symbol" : "3.0-2"}}</td>
-        </tr>
-      </tbody>
-  
-    </table>
-</div>
+
 <router-outlet></router-outlet>
