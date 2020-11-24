@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import customerList from '../../assets/data/customer-list.json';
 import { Customer } from '../customerList.type';
 
+import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-customer-list',
@@ -10,11 +12,21 @@ import { Customer } from '../customerList.type';
 })
 export class CustomerListComponent implements OnInit {
 
-  constructor() { }
+  customerss : any = []; 
+
+  customersss : any = []; 
+
+  constructor(private httpClient : HttpClient ) { }
   
   customers : Customer[] = customerList; 
+  
+  
 
   ngOnInit(): void {
+    this.httpClient.get("assets/data/customer-list.json").subscribe(data =>{
+      this.customerss = data;
+    })
+
   }
 
 }

@@ -29,34 +29,4 @@
       </tbody>
   
     </table>
-    <h1>Other</h1>
-    <table class="table table-hover">
-      <thead class="thead-dark">
-        <tr>
-          <th>UserId</th>
-          <th>Job Title</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Employee Code</th>
-          <th>Region</th>
-          <th>Phone Number</th>
-          <th>Email Address</th>
-          <th>Balance</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let customer of customerss">
-          <td>{{ customer.userId }}</td>
-          <td>{{ customer.jobTitle }}</td>
-          <td>{{ customer.firstName }}</td>
-          <td>{{ customer.lastName }}</td>
-          <td>{{ customer.employeeCode }}</td>
-          <td>{{ customer.region }}</td>
-          <td>{{ customer.phoneNumber }}</td>          
-          <td>{{ customer.emailAddress }}</td>
-          <td>{{ customer.balance | currency :"INR": "symbol" : "3.0-2"}}</td>
-        </tr>
-      </tbody>
-  
-    </table>
-</div>
+  </div>
